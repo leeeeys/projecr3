@@ -24,6 +24,7 @@ body::-webkit-scrollbar-track {
 
 .header {
   background: linear-gradient(60deg, rgb(10, 161, 94) 0%, rgb(10, 161, 50) 100%);
+  overflow: hidden;
 }
 .banner-inner{
   top: 20%;
@@ -34,10 +35,12 @@ body::-webkit-scrollbar-track {
   float: left;
 }
 .main-banner{
+  position: relative;
   float: right;
   width: 50%;
   height: auto;
-  
+  top: 50%;
+  margin-right: 10%;
 }
 .btn{
   margin-top: 4%;
@@ -52,7 +55,7 @@ body::-webkit-scrollbar-track {
 }
 
 .main-banner img{
-  max-width: 100%;
+  max-width: 130%;
   height: 100%;
   
 }
@@ -180,7 +183,7 @@ input[type="checkbox"]{
 }
 
 .inner-header {
-  height:80vh;
+  height:90vh;
   width:100%;
   margin: 0;
   padding: 0;
