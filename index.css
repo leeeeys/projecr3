@@ -231,6 +231,7 @@ input[type="checkbox"]{
   color: #202020;
 }
 .con-inner-right{
+  float: left;
   width: 97%;
   height: 300px;
   background: #f2f2f2;
@@ -239,6 +240,7 @@ input[type="checkbox"]{
   margin-bottom: 2%;
 }
 .con-inner-left{
+  float: right;
   width: 97%;
   height: 300px;
   background: #f8f8f8;
@@ -247,7 +249,7 @@ input[type="checkbox"]{
   margin-bottom: 2%;
 }
 .con-inner-right:hover{
-  background: rgb(10, 161, 94);
+  background: #0f62ca;
   transition: all .5s ease;
   color: #f2f2f2;
 }
@@ -259,4 +261,22 @@ input[type="checkbox"]{
 .right-item{
   width: 50%;
   float: right;
+  padding-top: 1%;
+}
+.left-item{
+  padding: 1%;
+}
+#f08300
+#bc0801
+.cider{
+  background: #fff;
+}
+.con-inner-pepsi
+.con-inner-orange
+.con-inner-orange
+
+.con-wraporange:hover{
+  background: #f08300;
+  transition: all .5s ease;
+  color: #f2f2f2;
 }
