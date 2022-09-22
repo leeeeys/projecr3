@@ -23,7 +23,7 @@ body::-webkit-scrollbar-track {
 }
 
 .header {
-  background: linear-gradient(60deg, rgb(10, 161, 94) 0%, rgb(10, 161, 50) 100%);
+  background: linear-gradient(60deg, rgb(10, 161, 94) 0%, rgb(14, 197, 63) 100%);
   overflow: hidden;
 }
 .banner-inner{
@@ -233,7 +233,7 @@ input[type="checkbox"]{
   padding: 3%;
   color: #202020;
 }
-.con-inner-right{
+.banner-right{
   float: left;
   width: 97%;
   height: 300px;
@@ -241,8 +241,9 @@ input[type="checkbox"]{
   margin: 0 auto;
   border-top-right-radius: 30px;
   margin-bottom: 2%;
+  overflow: hidden;
 }
-.con-inner-left{
+.banner-left{
   float: right;
   width: 97%;
   height: 300px;
@@ -250,24 +251,51 @@ input[type="checkbox"]{
   margin: 0 auto;
   border-top-left-radius: 30px;
   margin-bottom: 2%;
+  overflow: hidden;
 }
-.con-inner-right:hover{
+.banner-left:hover{
+  transition: all .5s ease;
+  color: #f2f2f2;
+}
+.banner-right:hover{
+  transition: all .5s ease;
+  color: #f2f2f2;
+}
+.con-pepsi:hover{
   background: #0f62ca;
-  transition: all .5s ease;
-  color: #f2f2f2;
+
 }
-.con-inner-left:hover{
+.con-cider:hover{
   background: rgb(10, 161, 94);
-  transition: all .5s ease;
-  color: #f2f2f2;
+}
+.con-orange:hover{
+  background: #f08300;
+}
+.con-energe:hover{
+  background: #bc0801;
 }
 .right-item{
   width: 50%;
   float: right;
   padding-top: 1%;
+  
+}
+.right-item img{
+  position: absolute;
+    bottom: 0;
+    z-index: 1;
+    float: right;
+    
 }
 .left-item{
   padding: 1%;
+  width: 50%;
+  float: left;
+}
+.left-item img{
+  position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
 #f08300
 #bc0801
@@ -278,8 +306,12 @@ input[type="checkbox"]{
 .con-inner-orange
 .con-inner-orange
 
-.con-wraporange:hover{
+.orange:hover{
   background: #f08300;
   transition: all .5s ease;
   color: #f2f2f2;
+}
+.banner-right .banner-img{
+  width: 50%;
+  height: 100%;
 }
