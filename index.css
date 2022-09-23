@@ -233,23 +233,34 @@ input[type="checkbox"]{
   padding: 3%;
   color: #202020;
 }
-.banner-right{
-  float: left;
-  width: 97%;
-  height: 300px;
-  background: #f2f2f2;
-  margin: 0 auto;
-  border-top-right-radius: 30px;
-  margin-bottom: 2%;
-  overflow: hidden;
+.main-title{
+  font-size: 15px;
+  font-weight: bold;
+}
+.sub-title{
+  font-size: 12px;
+  letter-spacing: -0.5px;
+}
+.banner-btn{
+  font-size: 13px;
+  color: #202020;
+  border: 1px solid #202020;
 }
 .banner-left{
   float: right;
   width: 97%;
-  height: 300px;
   background: #f8f8f8;
   margin: 0 auto;
   border-top-left-radius: 30px;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.banner-right{
+  float: left;
+  width: 97%;
+  background: #f2f2f2;
+  margin: 0 auto;
+  border-top-right-radius: 30px;
   margin-bottom: 2%;
   overflow: hidden;
 }
@@ -257,13 +268,23 @@ input[type="checkbox"]{
   transition: all .5s ease;
   color: #f2f2f2;
 }
+
 .banner-right:hover{
   transition: all .5s ease;
   color: #f2f2f2;
 }
+.banner-right:hover .banner-btn {
+  color: #f2f2f2;
+  border: 1px solid #fff;
+  transition: all .5s ease;
+}
+.banner-left:hover .banner-btn {
+  color: #f2f2f2;
+  border: 1px solid #fff;
+  transition: all .5s ease;
+}
 .con-pepsi:hover{
   background: #0f62ca;
-
 }
 .con-cider:hover{
   background: rgb(10, 161, 94);
@@ -274,44 +295,39 @@ input[type="checkbox"]{
 .con-energe:hover{
   background: #bc0801;
 }
+
 .right-item{
   width: 50%;
   float: right;
   padding-top: 1%;
-  
+  height: auto;
 }
-.right-item img{
-  position: absolute;
-    bottom: 0;
-    z-index: 1;
-    float: right;
-    
-}
+
 .left-item{
-  padding: 1%;
-  width: 50%;
+  padding-left: 1%;
+  padding-top: 1%;
+  width: 30%;
   float: left;
 }
-.left-item img{
-  position: absolute;
-    bottom: 0;
-    z-index: 1;
-}
-#f08300
-#bc0801
 .cider{
   background: #fff;
 }
-.con-inner-pepsi
-.con-inner-orange
-.con-inner-orange
-
-.orange:hover{
-  background: #f08300;
-  transition: all .5s ease;
-  color: #f2f2f2;
-}
-.banner-right .banner-img{
+.left-banner-img{
   width: 50%;
   height: 100%;
+}
+.left-banner-img img{
+  display: block;
+    width: 100%;
+    height: auto;
+}
+.right-banner-img{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.right-banner-img img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
