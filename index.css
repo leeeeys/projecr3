@@ -43,7 +43,7 @@ body::-webkit-scrollbar-track {
   float: right;
   width: 50%;
   height: auto;
-  top: 60px;
+  top: 100px;
   margin-right: 20%;
 }
 .main-banner img{
