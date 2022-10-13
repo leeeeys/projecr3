@@ -25,7 +25,12 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
 }
-
+h1{
+  font-size: 25px;
+}
+h3{
+  font-size: 20px;
+}
 .header {
   background: linear-gradient(60deg, rgb(10, 161, 94) 0%, rgb(14, 197, 63) 100%);
   overflow: hidden;
@@ -184,7 +189,9 @@ input[type="checkbox"]{
   top: 35px;
   left: 14px;
 }
-
+.logo img{
+  width: 80%;
+}
 .inner-header {
   height:65vh;
   width:100%;
