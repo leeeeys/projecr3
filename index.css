@@ -43,18 +43,7 @@ h3{
   width: 50%;
   float: left;
 }
-.main-banner{
-  position: relative;
-  float: right;
-  width: 50%;
-  height: auto;
-  top: 30%;
-  margin-right: 20%;
-}
-.main-banner img{
-  display: block;
-  width: 150%;
-}
+
 .btn{
   margin-top: 4%;
   display: inline-block;
@@ -123,7 +112,17 @@ h3{
 	pointer-events: none;
 	transition: background .6s;
 }
+.banner-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
 
+}
+.banner-img img{
+  width: 500px;
+  height: 500px;
+}
 /* closing animation */
 #active:checked + .menu-btn span {
 	transform: scaleX(0);
@@ -193,7 +192,7 @@ input[type="checkbox"]{
   width: 80%;
 }
 .inner-header {
-  height:65vh;
+  height:80vh;
   width:100%;
   margin: 0;
   padding: 0;
