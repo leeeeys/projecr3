@@ -36,22 +36,24 @@ h3{
   overflow: hidden;
 }
 .banner-inner{
-  top: 20%;
+  top: 55%;
   position: absolute;
-  color: #fff;
+  color: #20db6e;
   left: 14px;
   width: 50%;
   float: left;
+  padding: 1%;
+
 }
 
 .btn{
-  margin-top: 4%;
+  color: #f2f2f2;
   display: inline-block;
   padding: 0px 15px;
   font-weight: bold;
   font-size: 13px;
   line-height: 35px;
-  background: #fff;
+  background: #20db6e;
   border-radius: 15px;
   transition: 1.5s ease-in-out;
 }
@@ -113,10 +115,13 @@ h3{
 	transition: background .6s;
 }
 .banner-img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% , -50%);
+  background-image: url(img/Group\ 10\ \(1\).png);
+  background-position: center;
+  background-repeat : no-repeat;
+  background-position: 50% 0px;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
 
 }
 .banner-img img{
@@ -187,12 +192,13 @@ input[type="checkbox"]{
   position: absolute;
   top: 35px;
   left: 14px;
+  z-index: 999;
 }
 .logo img{
   width: 80%;
 }
 .inner-header {
-  height:80vh;
+  height:90vh;
   width:100%;
   margin: 0;
   padding: 0;
